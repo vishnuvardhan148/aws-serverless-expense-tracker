@@ -10,7 +10,7 @@ This is a fully functional **serverless backend application** built on AWS using
 - 🌐 **API Gateway**: HTTP API for RESTful access
 - 🗂️ **Database**: Amazon DynamoDB (NoSQL)
   
-
+---
 
 ## 🚀 How It Works
 
@@ -21,11 +21,17 @@ This is a fully functional **serverless backend application** built on AWS using
 
 ![DynamoDB Table](images/dynamodb_table.png)
 
+
+---
+
 ### ⚙️ 2. Lambda Function (Python 3.x)
 - Handles `POST`, `GET`, `PUT`, `DELETE`
 - Interacts with DynamoDB using `boto3`
 
 ![Lambda Code](images/lambda_code.png)
+
+
+---
 
 ### 🌐 3. API Gateway Setup
 - HTTP API
@@ -41,6 +47,8 @@ This is a fully functional **serverless backend application** built on AWS using
 
 You can test the API using Postman or curl:
 
+![Postman Test](images/postman_test.png)
+
 ```bash
 POST /expense
 {
@@ -49,4 +57,4 @@ POST /expense
   "date": "2025-06-08"
 }
 
-![Postman Test](images/postman_test.png)
+
