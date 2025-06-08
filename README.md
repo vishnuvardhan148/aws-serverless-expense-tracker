@@ -9,24 +9,8 @@ This is a fully functional **serverless backend application** built on AWS using
 - 🧠 **Backend**: AWS Lambda (Python)
 - 🌐 **API Gateway**: HTTP API for RESTful access
 - 🗂️ **Database**: Amazon DynamoDB (NoSQL)
-- 💡 **Frontend (Optional)**: HTML, CSS, and JavaScript
+  
 
----
-
-## 📸 Screenshots
-
-| Step | Image |
-|------|-------|
-| 1. DynamoDB Table Setup | ![DynamoDB](images/dynamodb_table.png) |
-| 2. Lambda Function Code | ![Lambda](images/lambda_code.png) |
-| 3. API Gateway Routes | ![API Routes](images/api_gateway_routes.png) |
-| 4. Testing with Postman | ![Postman](images/postman_test.png) |
-| 5. CloudWatch Logs | ![Logs](images/cloudwatch_logs.png) |
-| 6. Optional Frontend | ![Frontend](images/frontend_ui.png) |
-
-> 📁 Put your screenshot files inside a folder named `/images/` inside your GitHub repo.
-
----
 
 ## 🚀 How It Works
 
@@ -47,8 +31,10 @@ This is a fully functional **serverless backend application** built on AWS using
 - HTTP API
 - 4 Routes: `/expense` with `POST`, `GET`, `PUT`, `DELETE`
 - Each route integrated with the Lambda function
+- 
+  ![API gateway](images/api_gateway_routes.png)
 
-[API Routes](images/api_gateway_routes.png)
+
 ---
 
 ## 🧪 Testing the API
